@@ -1,0 +1,9 @@
+h1{
+    border-top: 5px dashed tomato ;
+    border-right:5px solid tomato  ;
+    border-bottom: 5px ridge tomato ;
+    border-left: 5px groove tomato ;
+}
+h2{
+    border-radius: 10px tomato ; 
+}
