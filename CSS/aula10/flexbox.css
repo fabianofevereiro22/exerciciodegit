@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 600px;
+    width: 600px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box1{
+    order: 1;
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+    display: flexbox
+}
+
+.box2{
+    order: 2;
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+}
+
+
+.box3{
+    order: 3;
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+}

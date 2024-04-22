@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --COR-Primária:#026773;
+    --COR-Secundária:#3CA6A6;
+    --COR-Terciária:#012E40;
+    --FONTE-TAMANHO:TAMANHO: 1.5rem;
+}
+body{
+    background-color:#024959;
+}
+h1{
+    color: #F2E3D5; :var (--COR Terciário)
+}
+
+
+p{
+    font-size: var(--FONTE-TAMANHO);
+}

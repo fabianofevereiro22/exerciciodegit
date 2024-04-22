@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: salmon;
+    margin: 15px;
+    padding: 15px;
+    height: 10vh; 
+    line-height: 10vh;
+    text-align: center;
+    display: block;
+}
+a{
+    padding-left: 1,5em;
+    padding-right: 1,5em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+nav > a:hover {
+    color: black;
+    background-color: white;
+}
+input:focus{
+    background-color: silver;
+    color: gold;
+}
+a:active{
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 1,5em;
+}
+
+a:visited{
+    text-decoration: none;
+    color: brown;
+    font-size 1,5em;
+}
+    
