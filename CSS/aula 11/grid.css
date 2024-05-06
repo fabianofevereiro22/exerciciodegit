@@ -1,0 +1,10 @@
+.container {
+    background-color: blue;
+    height: 50vh;
+    color: white;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 100px auto 200px;
+    grid-template-rows: repeat(3, 1fr);
+   
+}

@@ -1,0 +1,14 @@
+.container{
+   border: 1px solid;
+   display: grid;
+   height: 800px;
+   grid-template-columns:  repeat(4,1fr);
+   grid-template-rows: repeat(3,1fr);
+   justify-items: end;
+   align-items: end;
+   justify-content: center;
+   align-content: end;
+   place-content: center center;
+
+    
+}

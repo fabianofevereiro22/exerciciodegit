@@ -1,0 +1,12 @@
+.container{
+    height: 50vh;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 3, 1fr ;
+    grid-template-rows: 3, 1fr;
+}
+.box1{
+    background-color: aquamarine;
+   grid-column: 1/4;
+   grid-row: 1/2;
+}

@@ -1,0 +1,33 @@
+.container{
+    height: 50vh;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 4, 1fr;
+    grid-template-rows: 4, 1fr;
+    gap: 10px 20px;
+}
+.box1{
+    background-color: aquamarine;
+   grid-column: 1/5;
+   grid-row: 1/2;
+}
+.box2{
+    background-color: blueviolet;
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+.box3{
+    background-color: coral;
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+.box4{
+    background-color: rgb(0, 134, 139);
+    grid-column: 4/5;
+    grid-row: 2/4
+}
+.box5{
+    background-color: crimson;
+    grid-column: 1/5;
+    grid-row: 4/5;
+}
